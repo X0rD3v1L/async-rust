@@ -376,6 +376,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "tokio_block_on"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "tokio_join"
 version = "0.1.0"
 dependencies = [
