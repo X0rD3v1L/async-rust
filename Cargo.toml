@@ -1,0 +1,12 @@
+[package]
+name = "async-rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+
+[workspace]
+members = [
+    "futures_block_on"
+, "hello_tokio", "tokio_join"]
