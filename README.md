@@ -13,4 +13,4 @@
 9. [Tokio Spawn Blocking](./tokio_spawn_blocking/). Spawn a blocking function in the background without tying up the Tokio runtime.
 10. [Tokio MPSC Channels](./tokio_channels/). Create an async channel between tasks.
 
-###### All these exercises are learnt and implemented by following the content from Ardan Labs
+###### All the concepts learned and exercises implemented were based on content from Ardan Labs.
