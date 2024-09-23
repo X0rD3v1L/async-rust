@@ -5,8 +5,7 @@ edition = "2021"
 
 [dependencies]
 
-
 [workspace]
 members = [
     "futures_block_on"
-, "hello_tokio", "tokio_block_on", "tokio_join"]
+, "hello_tokio", "tokio_block_on", "tokio_blocking", "tokio_channels", "tokio_join", "tokio_select", "tokio_spawn", "tokio_spawn_blocking", "tokio_yield"]
