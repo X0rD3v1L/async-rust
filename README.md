@@ -18,5 +18,7 @@
 14. [Tokio Stream Generators](./tokio_stream_generator/). You can use streams as generators.
 15. [Tokio File IO as a Stream](./tokio_stream_file/). Stream files to pace IO, even in a single-threaded runtime.
 16. [Tracing: logging](./tracing_log). Setup trace-based logging.
+17. [Tracing: structures](./tracing_json/). Log to JSON instead.
+18. [Adapting Streams](./stream_adapt/). Adapt a stream in-flight and learn about pinning.
 
 ###### All the concepts learned and exercises implemented were based on content from Ardan Labs.
