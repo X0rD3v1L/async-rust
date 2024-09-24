@@ -12,5 +12,7 @@
 8. [Tokio Blocking](./tokio_blocking/). The right way and the wrong way to perform a blocking function in Tokio.
 9. [Tokio Spawn Blocking](./tokio_spawn_blocking/). Spawn a blocking function in the background without tying up the Tokio runtime.
 10. [Tokio MPSC Channels](./tokio_channels/). Create an async channel between tasks.
-
+11. [Tokio Multiple Channels](./tokio_multi_channels/). Create several channels and select the first one to return.
+12. [Thread to Tokio](./thread_to_tokio/). Send messages from a thread and into an async process.
+13. [Tokio Streams](./tokio_streams/). tasks run concurrently in tokio, but the program exits when the main task finishes, even if spawned tasks are still running.
 ###### All the concepts learned and exercises implemented were based on content from Ardan Labs.

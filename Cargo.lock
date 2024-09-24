@@ -403,6 +403,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "thread_to_tokio"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "tokio"
 version = "1.40.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -429,6 +436,17 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "tokio-stream"
+version = "0.1.16"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4f4e6ce100d0eb49a2734f8c0812bcd324cf357d21810932c5df6b96ef2b86f1"
+dependencies = [
+ "futures-core",
+ "pin-project-lite",
+ "tokio",
 ]
 
 [[package]]
@@ -462,6 +480,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "tokio_multi_channels"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+]
+
+[[package]]
 name = "tokio_select"
 version = "0.1.0"
 dependencies = [
@@ -481,6 +506,22 @@ name = "tokio_spawn_blocking"
 version = "0.1.0"
 dependencies = [
  "tokio",
+]
+
+[[package]]
+name = "tokio_stream_generator"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+ "tokio-stream",
+]
+
+[[package]]
+name = "tokio_streams"
+version = "0.1.0"
+dependencies = [
+ "tokio",
+ "tokio-stream",
 ]
 
 [[package]]
