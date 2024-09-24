@@ -15,4 +15,8 @@
 11. [Tokio Multiple Channels](./tokio_multi_channels/). Create several channels and select the first one to return.
 12. [Thread to Tokio](./thread_to_tokio/). Send messages from a thread and into an async process.
 13. [Tokio Streams](./tokio_streams/). tasks run concurrently in tokio, but the program exits when the main task finishes, even if spawned tasks are still running.
+14. [Tokio Stream Generators](./tokio_stream_generator/). You can use streams as generators.
+15. [Tokio File IO as a Stream](./tokio_stream_file/). Stream files to pace IO, even in a single-threaded runtime.
+16. [Tracing: logging](./tracing_log). Setup trace-based logging.
+
 ###### All the concepts learned and exercises implemented were based on content from Ardan Labs.

@@ -8,4 +8,4 @@ edition = "2021"
 [workspace]
 members = [
     "futures_block_on"
-, "hello_tokio", "thread_to_tokio", "tokio_block_on", "tokio_blocking", "tokio_channels", "tokio_join", "tokio_multi_channels", "tokio_select", "tokio_spawn", "tokio_spawn_blocking", "tokio_stream_generator", "tokio_streams", "tokio_yield"]
+, "hello_tokio", "stream_adapt", "thread_to_tokio", "tokio_block_on", "tokio_blocking", "tokio_channels", "tokio_join", "tokio_multi_channels", "tokio_select", "tokio_spawn", "tokio_spawn_blocking", "tokio_stream_file", "tokio_stream_generator", "tokio_streams", "tokio_yield", "tracing_json", "tracing_log", "tracing_spans"]
